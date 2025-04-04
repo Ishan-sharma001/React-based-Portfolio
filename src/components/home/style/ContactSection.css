@@ -1,0 +1,103 @@
+/* Contact Section CSS */
+.contact {
+    text-align: center;
+    padding: 60px 20px;
+    display: flex;
+    flex-direction: column;
+    
+    text-align: center;
+    color: white;
+}
+
+.contact h1 {
+    font-size: 2.5rem;
+    color: violet;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 800px;
+  
+}
+
+form {
+    background: #222;
+    padding: 30px;
+    border-radius: 10px;
+   
+    width: 100%;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    color: violet;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px 5px;
+    font-size: 1rem;
+    border: 1px solid violet;
+    border-radius: 5px;
+    background: #333;
+    color: white;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.submit-btn {
+    background: violet;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.submit-btn:hover {
+    background: #b300ff;
+}
+
+/* Social Media Links */
+.social-links {
+    display: flex;
+   
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.social-icon {
+    color: violet;
+    font-size: 2rem;
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #b300ff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .contact-container {
+        gap: 20px;
+    }
+}

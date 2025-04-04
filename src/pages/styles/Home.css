@@ -1,0 +1,13 @@
+.home {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, black, #222);
+    text-align: center;
+    color: white;
+    padding: 80px 20px 20px; /* Added top padding to prevent overlap */
+}
+
+
