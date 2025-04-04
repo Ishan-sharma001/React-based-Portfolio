@@ -49,12 +49,7 @@ my-portfolio/
    ```
    The project will be available at `http://localhost:3000/`.
 
-## 📸 Screenshots
-<video width="600" controls>
-  <source src="video-r.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
----
+
 ### 💖 Thank You!
 If you like this project, feel free to ⭐ the repo and share it with others! 😊
 
