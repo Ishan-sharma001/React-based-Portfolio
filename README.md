@@ -3,6 +3,12 @@
 
 Welcome to my **React.js Portfolio**! 🚀 This is a personal portfolio website showcasing my skills, projects, and contact details.
 
+## 🔗 Live Demo
+
+🌐 [Click here to view the live demo](https://reactbasedportfolio.vercel.app/)
+
+---
+
 ## 🌟 Features
 - **Home Page**: A clean and engaging introduction.
 - **About Page**: Information about my background and expertise.
