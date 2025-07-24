@@ -1,0 +1,19 @@
+.projects-hero {
+    text-align: center;
+    padding: 60px 20px;
+    color: white;
+   
+  }
+  
+  .projects-hero h1 {
+    font-size: 3rem;
+    color: violet;
+  }
+  
+  .projects-hero p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 10px auto;
+    opacity: 0.85;
+  }
+  

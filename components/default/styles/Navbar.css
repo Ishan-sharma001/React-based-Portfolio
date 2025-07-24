@@ -1,0 +1,81 @@
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: black;
+    padding: 15px 9px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: violet;
+}
+
+/* Desktop Menu */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: violet;
+    font-size: 18px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+    background: violet;
+    color: black;
+}
+
+/* Mobile Menu */
+.menu-toggle {
+    display: none;
+    font-size: 28px;
+    color: violet;
+    cursor: pointer;
+}
+
+/* Responsive Navbar */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background: black;
+        width: 100%;
+        padding: 15px 0;
+        text-align: center;
+    }
+
+    .nav-links.show {
+        display: flex;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+}

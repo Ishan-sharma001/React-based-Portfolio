@@ -1,0 +1,11 @@
+/* Footer CSS */
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: black;
+    padding: 15px 9px;
+    width: 100%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+  
